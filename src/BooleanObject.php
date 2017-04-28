@@ -27,7 +27,6 @@ class BooleanObject extends ObjectValue
      */
     public function __construct(Context $context, bool $value)
     {
-        parent::__construct($context);
     }
 
     /**
